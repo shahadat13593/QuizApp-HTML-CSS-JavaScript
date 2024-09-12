@@ -1,0 +1,106 @@
+/* ! ----------------- Header ----------------- */
+.header {
+  background-color: #dbe4ff;
+  height: 9.8rem;
+  padding: 3.2rem 6.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-box {
+}
+.logo {
+  height: 4rem;
+  width: 4rem;
+  color: #212529;
+}
+.nav-bar {
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.nav-link {
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  border-bottom: 1px solid #212529;
+}
+
+/* ! -----------------Main----------------- */
+
+.main {
+  height: 100vh;
+  background-color: #f1f3f5;
+}
+
+.primary-heading {
+  font-size: 4.8rem;
+  margin-bottom: 4.2rem;
+}
+
+.quiz-container {
+  margin-top: 6.4rem;
+}
+.total-question {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #fcc419;
+  margin-bottom: 4.8rem;
+}
+
+.questions-box {
+}
+.question-text {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.option-list {
+  list-style: none;
+  margin-left: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 3.8rem;
+}
+.option {
+  font-size: 2rem;
+}
+.answer-box {
+  display: flex;
+  align-items: flex-end;
+  gap: 2.2rem;
+  margin-bottom: 4.8rem;
+}
+.ans-title {
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+  font-weight: 600;
+}
+
+input {
+  border: 2px solid #dbe4ff;
+  outline: none;
+  padding: 1.8rem;
+  box-shadow: 0 2.4rem 4.4rem rgba(0, 0, 0, 0.075);
+  border-radius: 5px;
+  background-color: #f1f3f5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.result {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fcc419;
+  margin-bottom: 3.2rem;
+}

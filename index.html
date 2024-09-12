@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <!-- ?------------------ Header ------------------->
+    <header class="header">
+      <div class="logo-box">
+        <ion-icon name="logo-foursquare" class="logo"></ion-icon>
+      </div>
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li class="nav-link">Home</li>
+          <li class="nav-link">About</li>
+          <li class="nav-link">Services</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ?------------------ Main ------------------->
+    <main class="main">
+      <div class="container">
+        <h1 class="primary-heading">Let's Play JavaScript Quiz</h1>
+        <button class="btn btn-start">Start</button>
+        <div class="quiz-container"></div>
+        <button class="btn btn-next">Next</button>
+      </div>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

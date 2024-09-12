@@ -1,0 +1,99 @@
+/* *
+*--- 01 TYPOGRAPHY SYSTEM 
+*FONT SIZE SYSTEM (px)
+? --   10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 /48/ 52 / 62 / 74 / 86 / 98
+
+*- Font-Weight:
+Default: 400
+medium: 500
+semi-bold: 600
+bold: 700
+
+*- Line-heightL:
+  Default: 1
+  h1: 1.05
+  h2:1.1
+  p: 1.6
+
+  *-- Letter spacing
+  -0.5px
+  0.75px
+
+
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*--- 02 Color
+   Primary: #e67e22
+
+*- Tints:
+
+
+
+*- shades:
+
+
+*- Accents
+
+  color: #1c140d;
+  color: #1e2022;
+  color: #1F2124;
+*- Greys:
+
+*--- 05 Shadows 
+ 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+*--- 06 Border-radius
+Default: 9px
+MEAL CARD: 11PX
+
+*--- 07 WhiteSpace
+*- SPACING SYSTEM (px)
+? --   2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 400;
+  color: #212529;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ! ----------------- Container ----------------- */
+
+.container {
+  width: 130rem;
+  margin: 0 auto;
+  padding: 3.2rem 6.4rem;
+}
+
+/* !------------- Btns ------------- */
+.btn {
+  border: none;
+  background-color: #343a40;
+  color: #f8f9fa;
+  font-weight: 600;
+  font-size: 2rem;
+  border-radius: 5px;
+  transition: all 0.3s;
+  padding: 1.6rem 3.2rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #212529;
+}
+
+/* !------------- hidden ------------- */
+.hidden {
+  display: none;
+}
